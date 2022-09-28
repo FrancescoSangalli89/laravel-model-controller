@@ -3,14 +3,16 @@
 @section('page-title','list')
 
 @section('content')
-    
-        @foreach($movies as $movie)
-        <div>
+    <main class="container">
+    @foreach($movies as $movie)
+        <div class="card">
             <h3>{{$movie['title']}}</h3>
-            <div>{{$movie['original_title']}}</div>
+            <div>Titolo originale - {{$movie['original_title']}}</div>
             <div>{{$movie['nationality']}}</div>
-            <div>{{$movie['date']}}</div>
-            <div>{{$movie['vote']}}</div>
+            <div>Data di uscita: {{$movie['date']}}</div>
+            <div>Voto: {{$movie['vote']}}</div>
         </div>
-        @endforeach
+    @endforeach
+    </main>
+        
 @endsection
