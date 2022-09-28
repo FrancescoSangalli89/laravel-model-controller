@@ -1,0 +1,9 @@
+<footer>
+    <ul>
+        <li>titolo</li>
+        <li>titolo</li>
+        <li>titolo</li>
+        <li>titolo</li>
+        <li>titolo</li>
+    </ul>
+</footer>
