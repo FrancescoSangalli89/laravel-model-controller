@@ -28,15 +28,7 @@ header ul li a {
   color: rgb(7, 23, 99);
 }
 
-main {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-main .card {
+.card {
   text-align: center;
   border: 1px solid black;
   width: calc(20% - 15px);
@@ -54,5 +46,13 @@ footer {
   color: beige;
   max-height: 200px;
   padding: 50px;
+}
+
+main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 

@@ -1,5 +1,5 @@
 <header>
-    <nav>
+    <nav class="container">
         <ul>
             <li>
                 <a href="{{route('movie')}}">homepage</a>

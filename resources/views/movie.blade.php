@@ -3,5 +3,5 @@
 @section('page-title','homepage')
 
 @section('content')
-    <h1>ecco i film</h1>
+    <h1>benvenuto in film</h1>
 @endsection

@@ -4,3 +4,11 @@
 @import './partials/movieList';
 @import './partials/utilities';
 @import './partials/footer';
+
+main {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}

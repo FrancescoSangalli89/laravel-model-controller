@@ -3,7 +3,7 @@
 @section('page-title','list')
 
 @section('content')
-    <main class="container">
+
     @foreach($movies as $movie)
         <div class="card">
             <h3>{{$movie['title']}}</h3>
@@ -13,6 +13,5 @@
             <div>Voto: {{$movie['vote']}}</div>
         </div>
     @endforeach
-    </main>
         
 @endsection
