@@ -7,13 +7,13 @@ use App\Movie;
 
 class MovieController extends Controller
 {
-    public function list() {
+    public function index() {
         $movies = Movie::all();
 
-        foreach($movies as $movie) {
-            echo $movie->title . '<br>';
-        }
+        // foreach($movies as $movie) {
+        //     echo $movie->title . '<br>';
+        // }
 
-        return view('movie_list');
+        return view('movie_list', compact('movies'));
     }
 }
